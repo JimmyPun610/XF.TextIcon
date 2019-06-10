@@ -5,11 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="FontResources\IonicIcon\**" />
+    <EmbeddedResource Remove="FontResources\IonicIcon\**" />
+    <None Remove="FontResources\IonicIcon\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="FontResources\IonicIconMapping.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="FontResources\IonicIcon\IonicIconMapping.json" />
+    <EmbeddedResource Include="FontResources\IonicIconMapping.json" />
   </ItemGroup>
 
   <ItemGroup>

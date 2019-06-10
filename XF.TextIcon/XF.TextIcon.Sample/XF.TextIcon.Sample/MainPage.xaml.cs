@@ -16,7 +16,6 @@ namespace XF.TextIcon.Sample
         public MainPage()
         {
             InitializeComponent();
-            var s =Forms.IconCodeDictionary.Instance;
         }
     }
 }
