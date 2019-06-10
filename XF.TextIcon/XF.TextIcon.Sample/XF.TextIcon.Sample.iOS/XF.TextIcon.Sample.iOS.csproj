@@ -73,6 +73,13 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <BundleResource Include="Resources\FontAwesome5FreeRegular.otf" />
+    <BundleResource Include="Resources\FontAwesome5FreeSolid.otf" />
+    <BundleResource Include="Resources\GoogleMaterial.ttf" />
+    <BundleResource Include="Resources\icofont.ttf" />
+    <BundleResource Include="Resources\icons8-win10.ttf" />
+    <BundleResource Include="Resources\ionicons.ttf" />
+    <BundleResource Include="Resources\FontAwesome5FreeBrand.otf" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -136,12 +143,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\..\XF.TextIcon.iOS\XF.TextIcon.iOS.csproj">
-      <Project>{592c410f-25f6-4d95-8b17-efa0bcf8f0ff}</Project>
-      <Name>XF.TextIcon.iOS</Name>
-      <IsAppExtension>false</IsAppExtension>
-      <IsWatchApp>false</IsWatchApp>
-    </ProjectReference>
     <ProjectReference Include="..\XF.TextIcon.Sample\XF.TextIcon.Sample.csproj">
       <Project>{2645CE64-DE1F-4185-B483-5AB4F00323D0}</Project>
       <Name>XF.TextIcon.Sample</Name>

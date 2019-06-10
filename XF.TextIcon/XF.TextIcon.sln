@@ -3,17 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF.TextIcon.Droid", "XF.TextIcon.Droid\XF.TextIcon.Droid.csproj", "{2E292A5D-075F-4359-9BC1-A08B56515CD4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF.TextIcon.iOS", "XF.TextIcon.iOS\XF.TextIcon.iOS.csproj", "{592C410F-25F6-4D95-8B17-EFA0BCF8F0FF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF.TextIcon.Sample.Android", "XF.TextIcon.Sample\XF.TextIcon.Sample.Android\XF.TextIcon.Sample.Android.csproj", "{8E4FB84A-9DFC-42A8-ABB3-1F9BA1727DC3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF.TextIcon.Sample.iOS", "XF.TextIcon.Sample\XF.TextIcon.Sample.iOS\XF.TextIcon.Sample.iOS.csproj", "{A98D98B6-4B29-4135-B6D9-4F8CD5CB497E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF.TextIcon.Sample", "XF.TextIcon.Sample\XF.TextIcon.Sample\XF.TextIcon.Sample.csproj", "{C74C8FAA-2219-4585-872D-BC178E4B1602}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XF.TextIcon.Sample", "XF.TextIcon.Sample\XF.TextIcon.Sample\XF.TextIcon.Sample.csproj", "{C74C8FAA-2219-4585-872D-BC178E4B1602}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF.TextIcon.Forms", "XF.TextIcon.Forms\XF.TextIcon.Forms.csproj", "{14F14028-67D4-4159-A814-8A2B83052122}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XF.TextIcon.Forms", "XF.TextIcon.Forms\XF.TextIcon.Forms.csproj", "{14F14028-67D4-4159-A814-8A2B83052122}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,30 +21,6 @@ Global
 		Release|iPhoneSimulator = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2E292A5D-075F-4359-9BC1-A08B56515CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E292A5D-075F-4359-9BC1-A08B56515CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E292A5D-075F-4359-9BC1-A08B56515CD4}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{2E292A5D-075F-4359-9BC1-A08B56515CD4}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{2E292A5D-075F-4359-9BC1-A08B56515CD4}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{2E292A5D-075F-4359-9BC1-A08B56515CD4}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{2E292A5D-075F-4359-9BC1-A08B56515CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E292A5D-075F-4359-9BC1-A08B56515CD4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E292A5D-075F-4359-9BC1-A08B56515CD4}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{2E292A5D-075F-4359-9BC1-A08B56515CD4}.Release|iPhone.Build.0 = Release|Any CPU
-		{2E292A5D-075F-4359-9BC1-A08B56515CD4}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{2E292A5D-075F-4359-9BC1-A08B56515CD4}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{592C410F-25F6-4D95-8B17-EFA0BCF8F0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{592C410F-25F6-4D95-8B17-EFA0BCF8F0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{592C410F-25F6-4D95-8B17-EFA0BCF8F0FF}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{592C410F-25F6-4D95-8B17-EFA0BCF8F0FF}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{592C410F-25F6-4D95-8B17-EFA0BCF8F0FF}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{592C410F-25F6-4D95-8B17-EFA0BCF8F0FF}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{592C410F-25F6-4D95-8B17-EFA0BCF8F0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{592C410F-25F6-4D95-8B17-EFA0BCF8F0FF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{592C410F-25F6-4D95-8B17-EFA0BCF8F0FF}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{592C410F-25F6-4D95-8B17-EFA0BCF8F0FF}.Release|iPhone.Build.0 = Release|Any CPU
-		{592C410F-25F6-4D95-8B17-EFA0BCF8F0FF}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{592C410F-25F6-4D95-8B17-EFA0BCF8F0FF}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{8E4FB84A-9DFC-42A8-ABB3-1F9BA1727DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8E4FB84A-9DFC-42A8-ABB3-1F9BA1727DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E4FB84A-9DFC-42A8-ABB3-1F9BA1727DC3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU

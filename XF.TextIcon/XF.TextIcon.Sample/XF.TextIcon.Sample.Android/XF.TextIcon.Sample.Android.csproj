@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <BundleAssemblies>false</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -71,6 +74,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\FontAwesome5FreeBrand.otf" />
+    <AndroidAsset Include="Assets\FontAwesome5FreeRegular.otf" />
+    <AndroidAsset Include="Assets\FontAwesome5FreeSolid.otf" />
+    <AndroidAsset Include="Assets\GoogleMaterial.ttf" />
+    <AndroidAsset Include="Assets\icofont.ttf" />
+    <AndroidAsset Include="Assets\icons8-win10.ttf" />
+    <AndroidAsset Include="Assets\ionicons.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
@@ -101,10 +111,6 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\XF.TextIcon.Droid\XF.TextIcon.Droid.csproj">
-      <Project>{2e292a5d-075f-4359-9bc1-a08b56515cd4}</Project>
-      <Name>XF.TextIcon.Droid</Name>
-    </ProjectReference>
     <ProjectReference Include="..\XF.TextIcon.Sample\XF.TextIcon.Sample.csproj">
       <Project>{2645CE64-DE1F-4185-B483-5AB4F00323D0}</Project>
       <Name>XF.TextIcon.Sample</Name>

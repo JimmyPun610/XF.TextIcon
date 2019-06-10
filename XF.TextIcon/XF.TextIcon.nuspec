@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>XF.TextIcon</id>
+    <version>1.0.0.0</version>
+    <title>XF.TextIcon</title>
+    <authors>Jimmy Pun</authors>
+    <owners>Jimmy Pun</owners>
+    <licenseUrl>https://github.com/JimmyPun610/XF.TextIcon</licenseUrl>
+    <projectUrl>https://github.com/JimmyPun610/XF.TextIcon</projectUrl>
+    <iconUrl>https://banner2.kisspng.com/20180713/olo/kisspng-nuget-net-framework-package-manager-software-repo-nuget-5b487dc3ba81a7.452233091531477443764.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a library to implement some icon font to Label and Span in Xamarin Forms</description>
+    <releaseNotes>
+		1.0.0.0 : First Commit
+	</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Xamarin.Forms Icon Font</tags>
+	<dependencies>
+		<group targetFramework="netstandard2.0">
+			<!--MonoAndroid dependencies go here-->
+			<dependency id="Xamarin.Forms" version="3.5.0.274416" />
+		</group>
+	</dependencies>
+  </metadata>
+  <!-- Insert below <metadata> element -->
+<files>
+    <!-- Cross-platform reference assemblies -->
+    <file src="XF.TextIcon.Forms\bin\Release\netstandard2.0\*.dll" target="lib\netstandard2.0" />
+</files>
+</package>

@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             xmlns:texticon="clr-namespace:XF.TextIcon.Forms;assembly=XF.TextIcon.Forms"
+             xmlns:texticon="clr-namespace:XF.TextIcon.Forms.View;assembly=XF.TextIcon.Forms"
              x:Class="XF.TextIcon.Sample.MainPage">
 
     <StackLayout>
@@ -22,6 +22,7 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+        <texticon:IconLabel IconType="FontAwesomeSolid" IconName="fontawesome5-free-solid-angry" FontSize="Large"/>
     </StackLayout>
 
 </ContentPage>

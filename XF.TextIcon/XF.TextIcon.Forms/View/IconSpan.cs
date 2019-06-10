@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using Xamarin.Forms;
 using XF.TextIcon.Forms.FontName;
 
-namespace XF.TextIcon.Forms
+namespace XF.TextIcon.Forms.View
 {
     public class IconSpan : Span, INotifyPropertyChanged
     {
