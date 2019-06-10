@@ -15,6 +15,7 @@
                     <texticon:IconSpan IconType="IonicIcon" IconName="ion-ios-arrow-round-forward" FontSize="Large"/>
                     <texticon:IconSpan IconType="Icon8Win10" IconName="icons8-win10-clipboard" FontSize="Large"/>
                     <texticon:IconSpan IconType="IcoFont" IconName="icofont-gift-box" FontSize="Large"/>
+                    <texticon:IconSpan IconType="GoogleMaterial" IconName="material-add_shopping_cart" FontSize="Large"/>
                 </FormattedString>
             </Label.FormattedText>
         </Label>

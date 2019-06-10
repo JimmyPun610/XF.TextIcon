@@ -11,6 +11,12 @@ namespace XF.TextIcon.Forms
 {
     public class IconCodeDictionary
     {
+        private Dictionary<string, string> IonicIconCodeMap = new Dictionary<string, string>();
+        private Dictionary<string, string> Icon8Win10CodeMap = new Dictionary<string, string>();
+        private Dictionary<string, string> IcoFontCodeMap = new Dictionary<string, string>();
+        private Dictionary<string, string> GoogleMaterialIconCodeMap = new Dictionary<string, string>();
+
+
         private static IconCodeDictionary _instance { get; set; }
         public static IconCodeDictionary Instance
         {
@@ -21,13 +27,13 @@ namespace XF.TextIcon.Forms
                 return _instance;
             }
         }
-        private Dictionary<string, string> IonicIconCodeMap = new Dictionary<string, string>();
-        private Dictionary<string, string> Icon8Win10CodeMap = new Dictionary<string, string>();
-        private Dictionary<string, string> IcoFontCodeMap = new Dictionary<string, string>();
+     
         public IconCodeDictionary()
         {
             initIonicIcon();
             initIcon8Windows10Icon();
+            initIcoFontIcon();
+            initGoogleMaterialIcon();
         }
         
 
@@ -46,6 +52,11 @@ namespace XF.TextIcon.Forms
             string json = FontResources.ResourceHelpers.GetEmbeddedResource("FontResources/IcoFontIconMapping.json");
             IcoFontCodeMap = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
         }
+        private void initGoogleMaterialIcon()
+        {
+            string json = FontResources.ResourceHelpers.GetEmbeddedResource("FontResources/GoogleMaterialIconMapping.json");
+            GoogleMaterialIconCodeMap = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+        }
 
 
         public string GetIconCode(string key, IconTypes iconTypes)
@@ -63,6 +74,10 @@ namespace XF.TextIcon.Forms
                 case IconTypes.IcoFont:
                     if (IcoFontCodeMap.ContainsKey(key))
                         return IcoFontCodeMap[key];
+                    else return string.Empty;
+                case IconTypes.GoogleMaterial:
+                    if (GoogleMaterialIconCodeMap.ContainsKey(key))
+                        return GoogleMaterialIconCodeMap[key];
                     else return string.Empty;
                 default:
                     return string.Empty;

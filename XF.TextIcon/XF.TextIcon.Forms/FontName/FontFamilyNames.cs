@@ -9,5 +9,6 @@ namespace XF.TextIcon.Forms.FontName
         public const string IonicIcon = "Ionicons";
         public const string Icon8Windows10 = "icons8-win10";
         public const string IcoFont = "IcoFont";
+        public const string GoogleMaterial = "Material Icons";
     }
 }
