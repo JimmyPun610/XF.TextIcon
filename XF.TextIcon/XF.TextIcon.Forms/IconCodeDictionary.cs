@@ -37,7 +37,7 @@ namespace XF.TextIcon.Forms
         }
         private void initIcon8Windows10Icon()
         {
-            string json = FontResources.ResourceHelpers.GetEmbeddedResource("FontResources/Icon8Windows10IconMapping.json");
+            string json = FontResources.ResourceHelpers.GetEmbeddedResource("FontResources/Icons8Windows10IconMapping.json");
             Icon8Win10CodeMap = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
         }
         public string GetIconCode(string key, IconTypes iconTypes)
