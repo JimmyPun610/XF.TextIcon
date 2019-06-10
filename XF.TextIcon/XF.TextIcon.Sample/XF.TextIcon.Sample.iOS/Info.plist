@@ -40,6 +40,9 @@
     <string>icons8-win10.ttf</string>
     <string>icofont.ttf</string>
     <string>GoogleMaterial.ttf</string>
+    <string>FontAwesome5FreeRegular.otf</string>
+    <string>FontAwesome5FreeSolid.otf</string>
+    <string>FontAwesome5FreeBrand.otf</string>
   </array>
 </dict>
 </plist>

@@ -66,6 +66,9 @@
     <BundleResource Include="Resources\icons8-win10.ttf" />
     <BundleResource Include="Resources\icofont.ttf" />
     <BundleResource Include="Resources\GoogleMaterial.ttf" />
+    <BundleResource Include="Resources\FontAwesome5FreeSolid.otf" />
+    <BundleResource Include="Resources\FontAwesome5FreeBrand.otf" />
+    <BundleResource Include="Resources\FontAwesome5FreeRegular.otf" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -15,6 +15,9 @@ namespace XF.TextIcon.Forms
         private Dictionary<string, string> Icon8Win10CodeMap = new Dictionary<string, string>();
         private Dictionary<string, string> IcoFontCodeMap = new Dictionary<string, string>();
         private Dictionary<string, string> GoogleMaterialIconCodeMap = new Dictionary<string, string>();
+        private Dictionary<string, string> FontAwesome5FreeRegularCodeMap = new Dictionary<string, string>();
+        private Dictionary<string, string> FontAwesome5FreeSolidCodeMap = new Dictionary<string, string>();
+        private Dictionary<string, string> FontAwesome5FreeBrandCodeMap = new Dictionary<string, string>();
 
 
         private static IconCodeDictionary _instance { get; set; }
@@ -34,6 +37,9 @@ namespace XF.TextIcon.Forms
             initIcon8Windows10Icon();
             initIcoFontIcon();
             initGoogleMaterialIcon();
+            initFontAwesome5FreeBrandIcon();
+            initFontAwesome5FreeRegularIcon();
+            initFontAwesome5FreeSolidIcon();
         }
         
 
@@ -57,7 +63,21 @@ namespace XF.TextIcon.Forms
             string json = FontResources.ResourceHelpers.GetEmbeddedResource("FontResources/GoogleMaterialIconMapping.json");
             GoogleMaterialIconCodeMap = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
         }
-
+        private void initFontAwesome5FreeRegularIcon()
+        {
+            string json = FontResources.ResourceHelpers.GetEmbeddedResource("FontResources/FontAwesome5Free-Regular.json");
+            FontAwesome5FreeRegularCodeMap = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+        }
+        private void initFontAwesome5FreeSolidIcon()
+        {
+            string json = FontResources.ResourceHelpers.GetEmbeddedResource("FontResources/FontAwesome5Free-Solid.json");
+            FontAwesome5FreeSolidCodeMap = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+        }
+        private void initFontAwesome5FreeBrandIcon()
+        {
+            string json = FontResources.ResourceHelpers.GetEmbeddedResource("FontResources/FontAwesome5Free-Brand.json");
+            FontAwesome5FreeBrandCodeMap = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+        }
 
         public string GetIconCode(string key, IconTypes iconTypes)
         {
@@ -78,6 +98,18 @@ namespace XF.TextIcon.Forms
                 case IconTypes.GoogleMaterial:
                     if (GoogleMaterialIconCodeMap.ContainsKey(key))
                         return GoogleMaterialIconCodeMap[key];
+                    else return string.Empty;
+                case IconTypes.FontAwesomeBrand:
+                    if (FontAwesome5FreeBrandCodeMap.ContainsKey(key))
+                        return FontAwesome5FreeBrandCodeMap[key];
+                    else return string.Empty;
+                case IconTypes.FontAwesomeSolid:
+                    if (FontAwesome5FreeSolidCodeMap.ContainsKey(key))
+                        return FontAwesome5FreeSolidCodeMap[key];
+                    else return string.Empty;
+                case IconTypes.FontAwesomeRegular:
+                    if (FontAwesome5FreeRegularCodeMap.ContainsKey(key))
+                        return FontAwesome5FreeRegularCodeMap[key];
                     else return string.Empty;
                 default:
                     return string.Empty;

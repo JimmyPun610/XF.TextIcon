@@ -16,6 +16,9 @@
                     <texticon:IconSpan IconType="Icon8Win10" IconName="icons8-win10-clipboard" FontSize="Large"/>
                     <texticon:IconSpan IconType="IcoFont" IconName="icofont-gift-box" FontSize="Large"/>
                     <texticon:IconSpan IconType="GoogleMaterial" IconName="material-add_shopping_cart" FontSize="Large"/>
+                    <texticon:IconSpan IconType="FontAwesomeBrand" IconName="fontawesome5-free-brand-facebook" FontSize="Large"/>
+                    <texticon:IconSpan IconType="FontAwesomeRegular" IconName="fontawesome5-free-regular-calendar-check" FontSize="Large"/>
+                    <texticon:IconSpan IconType="FontAwesomeSolid" IconName="fontawesome5-free-solid-angry" FontSize="Large"/>
                 </FormattedString>
             </Label.FormattedText>
         </Label>

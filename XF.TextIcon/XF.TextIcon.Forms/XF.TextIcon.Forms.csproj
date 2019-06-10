@@ -11,6 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="FontResources\FontAwesome5Free-Brand.json" />
+    <None Remove="FontResources\FontAwesome5Free-Regular.json" />
+    <None Remove="FontResources\FontAwesome5Free-Solid.json" />
     <None Remove="FontResources\GoogleMaterialIconMapping.json" />
     <None Remove="FontResources\IcoFontIconMapping.json" />
     <None Remove="FontResources\Icon8Windows10IconMapping.json" />
@@ -19,6 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="FontResources\FontAwesome5Free-Brand.json" />
+    <EmbeddedResource Include="FontResources\FontAwesome5Free-Regular.json" />
+    <EmbeddedResource Include="FontResources\FontAwesome5Free-Solid.json" />
     <EmbeddedResource Include="FontResources\GoogleMaterialIconMapping.json" />
     <EmbeddedResource Include="FontResources\IcoFontIconMapping.json" />
     <EmbeddedResource Include="FontResources\Icons8Windows10IconMapping.json" />

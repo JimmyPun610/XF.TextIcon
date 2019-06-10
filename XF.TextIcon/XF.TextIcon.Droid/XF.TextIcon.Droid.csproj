@@ -53,6 +53,9 @@
     <AndroidAsset Include="Assets\icons8-win10.ttf" />
     <AndroidAsset Include="Assets\icofont.ttf" />
     <AndroidAsset Include="Assets\GoogleMaterial.ttf" />
+    <AndroidAsset Include="Assets\FontAwesome5FreeBrand.otf" />
+    <AndroidAsset Include="Assets\FontAwesome5FreeRegular.otf" />
+    <AndroidAsset Include="Assets\FontAwesome5FreeSolid.otf" />
     <None Include="Resources\AboutResources.txt" />
   </ItemGroup>
   <ItemGroup>

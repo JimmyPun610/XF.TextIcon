@@ -30,6 +30,18 @@ namespace XF.TextIcon.Forms
                     ttfName = TTFNames.GoolgeMaterial;
                     fontFamilyName = FontFamilyNames.GoogleMaterial;
                     break;
+                case IconTypes.FontAwesomeSolid:
+                    ttfName = TTFNames.FontAwesome5FreeSolid;
+                    fontFamilyName = FontFamilyNames.FontAwesome5FreeSolid;
+                    break;
+                case IconTypes.FontAwesomeRegular:
+                    ttfName = TTFNames.FontAwesome5FreeRegular;
+                    fontFamilyName = FontFamilyNames.FontAwesome5FreeRegular;
+                    break;
+                case IconTypes.FontAwesomeBrand:
+                    ttfName = TTFNames.FontAwesome5FreeBrand;
+                    fontFamilyName = FontFamilyNames.FontAwesome5FreeBrand;
+                    break;
                 default:
                     ttfName = TTFNames.IonicIcon;
                     fontFamilyName = FontFamilyNames.IonicIcon;
