@@ -26,6 +26,10 @@ namespace XF.TextIcon.Forms
                     ttfName = TTFNames.IcoFont;
                     fontFamilyName = FontFamilyNames.IcoFont;
                     break;
+                case IconTypes.GoogleMaterial:
+                    ttfName = TTFNames.GoolgeMaterial;
+                    fontFamilyName = FontFamilyNames.GoogleMaterial;
+                    break;
                 default:
                     ttfName = TTFNames.IonicIcon;
                     fontFamilyName = FontFamilyNames.IonicIcon;
