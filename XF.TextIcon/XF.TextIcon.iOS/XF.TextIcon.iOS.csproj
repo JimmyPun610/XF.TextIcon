@@ -64,6 +64,7 @@
     <None Include="packages.config" />
     <BundleResource Include="Resources\ionicons.ttf" />
     <BundleResource Include="Resources\icons8-win10.ttf" />
+    <BundleResource Include="Resources\icofont.ttf" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

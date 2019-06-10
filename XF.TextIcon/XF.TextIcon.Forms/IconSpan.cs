@@ -36,18 +36,7 @@ namespace XF.TextIcon.Forms
         }
         private void changeFontFamily()
         {
-            switch (IconType)
-            {
-                case IconTypes.IonicIcon:
-                    this.FontFamily = IconFontFamily.GetFontFamily(IconType);
-                    break;
-                case IconTypes.Icon8Win10:
-                    this.FontFamily = IconFontFamily.GetFontFamily(IconType);
-                    break;
-                default:
-                    this.FontFamily = IconFontFamily.GetFontFamily(IconType);
-                    break;
-            }
+            this.FontFamily = IconFontFamily.GetFontFamily(IconType);
         }
 
         public static readonly BindableProperty IconTypeProperty =

@@ -23,6 +23,7 @@ namespace XF.TextIcon.Forms
         }
         private Dictionary<string, string> IonicIconCodeMap = new Dictionary<string, string>();
         private Dictionary<string, string> Icon8Win10CodeMap = new Dictionary<string, string>();
+        private Dictionary<string, string> IcoFontCodeMap = new Dictionary<string, string>();
         public IconCodeDictionary()
         {
             initIonicIcon();
@@ -40,6 +41,13 @@ namespace XF.TextIcon.Forms
             string json = FontResources.ResourceHelpers.GetEmbeddedResource("FontResources/Icons8Windows10IconMapping.json");
             Icon8Win10CodeMap = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
         }
+        private void initIcoFontIcon()
+        {
+            string json = FontResources.ResourceHelpers.GetEmbeddedResource("FontResources/IcoFontIconMapping.json");
+            IcoFontCodeMap = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+        }
+
+
         public string GetIconCode(string key, IconTypes iconTypes)
         {
             switch (iconTypes)
@@ -51,6 +59,10 @@ namespace XF.TextIcon.Forms
                 case IconTypes.Icon8Win10:
                     if (Icon8Win10CodeMap.ContainsKey(key))
                         return Icon8Win10CodeMap[key];
+                    else return string.Empty;
+                case IconTypes.IcoFont:
+                    if (IcoFontCodeMap.ContainsKey(key))
+                        return IcoFontCodeMap[key];
                     else return string.Empty;
                 default:
                     return string.Empty;

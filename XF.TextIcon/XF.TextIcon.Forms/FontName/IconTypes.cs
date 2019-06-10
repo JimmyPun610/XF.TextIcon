@@ -8,5 +8,7 @@ namespace XF.TextIcon.Forms.FontName
     {
         IonicIcon = 0,
         Icon8Win10 = 1,
+        IcoFont = 2,
+
     }
 }
