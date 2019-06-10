@@ -11,7 +11,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="FontResources\Icon8Windows10IconMapping.json" />
     <None Remove="FontResources\IonicIconMapping.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="FontResources\Icon8Windows10IconMapping.json" />
   </ItemGroup>
 
   <ItemGroup>

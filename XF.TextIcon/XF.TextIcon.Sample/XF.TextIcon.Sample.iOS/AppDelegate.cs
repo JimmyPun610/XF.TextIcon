@@ -24,7 +24,7 @@ namespace XF.TextIcon.Sample.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-
+            var s = UIFont.FamilyNames;
             return base.FinishedLaunching(app, options);
         }
     }

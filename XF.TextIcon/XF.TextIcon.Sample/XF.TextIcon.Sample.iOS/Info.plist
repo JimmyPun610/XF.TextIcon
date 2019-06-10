@@ -37,6 +37,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>ionicons.ttf</string>
+    <string>icons8-win10.ttf</string>
 	</array>
 </dict>
 </plist>

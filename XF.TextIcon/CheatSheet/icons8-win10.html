@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	<style>
+	@font-face {
+		font-family:"icons8-win10";
+		src: url("../XF.TextIcon.Droid/Assets/icons8-win10.ttf");
+	}
+	.icon{
+		font-family: icons8-win10;
+	}
+	body{
+		font-size: 24px
+	}
+	</style>
+
+</head>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+<body>
+	<table id="content" border=1 frame=void rules=rows></table>
+</body>
+<script type="text/javascript">
+	var contentDiv = document.getElementById("content")
+	$.getJSON( "https://raw.githubusercontent.com/JimmyPun610/XF.TextIcon/master/XF.TextIcon/XF.TextIcon.Forms/FontResources/Icon8Windows10IconMapping.json", function( data ) {
+		for (var key in data) {
+		// check if the property/key is defined in the object itself, not in parent
+		if (data.hasOwnProperty(key)) {           
+			var row = content.insertRow(0)
+			var cell_1 = row.insertCell(0)
+			var cell_2 = row.insertCell(1)
+			cell_1.innerHTML = key
+			cell_2.innerHTML = '<span class="icon">' + data[key] + '</span>'
+		}
+	}
+  });
+</script>
+</html>

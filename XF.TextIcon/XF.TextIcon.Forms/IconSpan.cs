@@ -39,10 +39,11 @@ namespace XF.TextIcon.Forms
             switch (IconType)
             {
                 case IconTypes.IonicIcon:
-                    {
-                        this.FontFamily = IconFontFamily.GetFontFamily(IconType);
-                        break;
-                    }
+                    this.FontFamily = IconFontFamily.GetFontFamily(IconType);
+                    break;
+                case IconTypes.Icon8Win10:
+                    this.FontFamily = IconFontFamily.GetFontFamily(IconType);
+                    break;
                 default:
                     this.FontFamily = IconFontFamily.GetFontFamily(IconType);
                     break;

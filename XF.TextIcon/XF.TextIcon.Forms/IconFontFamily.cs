@@ -18,6 +18,10 @@ namespace XF.TextIcon.Forms
                     ttfName = TTFNames.IonicIcon;
                     fontFamilyName = FontFamilyNames.IonicIcon;
                     break;
+                case IconTypes.Icon8Win10:
+                    ttfName = TTFNames.Icon8Windows10;
+                    fontFamilyName = FontFamilyNames.Icon8Windows10;
+                    break;
                 default:
                     ttfName = TTFNames.IonicIcon;
                     fontFamilyName = FontFamilyNames.IonicIcon;

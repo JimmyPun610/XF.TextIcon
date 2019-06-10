@@ -6,6 +6,7 @@ namespace XF.TextIcon.Forms.FontName
 {
     public enum IconTypes
     {
-        IonicIcon = 0
+        IonicIcon = 0,
+        Icon8Win10 = 1,
     }
 }

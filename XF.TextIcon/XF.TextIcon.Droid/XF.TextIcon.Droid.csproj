@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\ionicons.ttf" />
+    <AndroidAsset Include="Assets\icons8-win10.ttf" />
     <None Include="Resources\AboutResources.txt" />
   </ItemGroup>
   <ItemGroup>
