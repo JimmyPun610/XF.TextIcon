@@ -1,6 +1,7 @@
 # XF.TextIcon
 Xamarin Forms Library for Icon font
-
+Works in Android and iOS
+Required Xamarin.Forms 3.5.0.274416 or above
 
 # Setup
 1. Forms Project
