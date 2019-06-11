@@ -10,6 +10,10 @@ Required Xamarin.Forms 3.5.0.274416 or above
 4. Google Material Icon https://material.io/tools/icons/?style=baseline
 5. IcoFont https://icofont.com/
 
+# Support UI Control
+1. Span
+2. Label
+
 # Setup
 1. Forms Project
   - Install Nuget Package
