@@ -30,7 +30,7 @@ Required Xamarin.Forms 3.5.0.274416 or above
  ```
   
   
-#How to use
+# How to use
 To use in xaml, you may set the icon as below. The IconName can be check from CheatSheet.
  ```xaml
    <Label>
@@ -51,5 +51,5 @@ To use in xaml, you may set the icon as below. The IconName can be check from Ch
   
   
   
-  #Further improvement
+  # Further improvement
   Please let me know if any request on different fonts, providing the otf / ttf file will be nice.
