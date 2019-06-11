@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>This is a library to implement some icon font to Label and Span in Xamarin Forms</Description>
+    <PackageProjectUrl>https://github.com/JimmyPun610/XF.TextIcon</PackageProjectUrl>
+    <PackageReleaseNotes>1.0.0.0 : First Commit</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
