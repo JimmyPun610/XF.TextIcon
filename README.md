@@ -3,6 +3,13 @@ Xamarin Forms Library for Icon font
 Works in Android and iOS
 Required Xamarin.Forms 3.5.0.274416 or above
 
+# Supporting Font
+1. Ionicon https://ionicons.com/
+2. FontAwesome 5 Free https://fontawesome.com/icons
+3. Icon8 Windows 10 https://github.com/icons8/windows-10-icons
+4. Google Material Icon https://material.io/tools/icons/?style=baseline
+5. IcoFont https://icofont.com/
+
 # Setup
 1. Forms Project
   - Install Nuget Package
