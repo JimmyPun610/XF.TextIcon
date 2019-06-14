@@ -1,6 +1,18 @@
 # XF.TextIcon
 Xamarin Forms Library for Icon font
+Works in Android and iOS
+Required Xamarin.Forms 3.5.0.274416 or above
 
+# Supporting Font
+1. Ionicon https://ionicons.com/
+2. FontAwesome 5 Free https://fontawesome.com/icons
+3. Icon8 Windows 10 https://github.com/icons8/windows-10-icons
+4. Google Material Icon https://material.io/tools/icons/?style=baseline
+5. IcoFont https://icofont.com/
+
+# Support UI Control
+1. Span
+2. Label
 
 # Setup
 1. Forms Project
@@ -29,7 +41,7 @@ Xamarin Forms Library for Icon font
  ```
   
   
-#How to use
+# How to use
 To use in xaml, you may set the icon as below. The IconName can be check from CheatSheet.
  ```xaml
    <Label>
@@ -50,5 +62,5 @@ To use in xaml, you may set the icon as below. The IconName can be check from Ch
   
   
   
-  #Further improvement
+  # Further improvement
   Please let me know if any request on different fonts, providing the otf / ttf file will be nice.
