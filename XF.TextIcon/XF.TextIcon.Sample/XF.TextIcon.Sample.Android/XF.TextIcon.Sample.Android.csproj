@@ -56,7 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json">
-      <Version>12.0.2</Version>
+      <Version>13.0.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="3.5.0.274416" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
